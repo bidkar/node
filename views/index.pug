@@ -1,0 +1,19 @@
+extends layout
+
+block content
+	.container
+		.row
+			.col.s12.m4.offset-m4
+				.login-form
+					form
+						.input-field
+							input#txtUsuario(type="text", name="txtUsuario")
+							label(for="txtUsuario") Usuario:
+						.input-field
+							input#txtPassword(type="password", name="txtPassword")
+							label(for="txtPassword") Contraseña:
+						div
+							input#remember.filled-in(type="checkbox", name="remember")
+							label(for="remember") Mantener sesion iniciada
+						.center-align
+							button.btn(type="submit") Iniciar sesión

@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title Universidad de Occidente - #{titulo}
+		link(rel="stylesheet", href="stylesheets/style.css")
+		block head
+	body
+	block header
+	header
+		nav
+			.container
+				.nav-wrapper
+					a.brand-logo(href="#") Universidad de Occidente
+	main
+		block content
+
+	block foot
+	footer.page-footer
+		.container
+			.row
+				.col.l6.s12
+					h5.white-text Universidad de Occidente
+					p.grey-text.text-lighten-4 Por la cultura a la libertad
+		.footer-copyright
+			.container Todos los derechos reservados &copy; 2017
+				a.right.grey-text.text-lighten-4(href="http://udo.mx") udo.mx
+	
+	block scripts
+	script(src="javascripts/jquery.js")
+	script(src="javascripts/materialize.js")

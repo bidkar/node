@@ -1,0 +1,23 @@
+@import '../node_modules/materialize-css/sass/materialize.scss';
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: lightgray;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.login-form {
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 3px 5px gray;
+  padding: 10px;
+  margin: 10px;
+}
+
+main {
+  min-height: 350px;
+}
